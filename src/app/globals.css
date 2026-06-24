@@ -1,0 +1,26 @@
+@import "tailwindcss";
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  /* Make all images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Prevent horizontal scroll */
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Adjust container padding */
+  main {
+    padding-bottom: 100px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Extra small screens */
+  .land-card {
+    border-radius: 12px !important;
+  }
+}
