@@ -68,7 +68,7 @@ export default function NavigationDock() {
     { href: "/", label: "Home" },
     { href: "/listings", label: "Listings" },
     { href: "/about", label: "About" },
-    { href: "/blog", label: "Journal" },
+    { href: "/blog", label: "Blog" },
     { href: "/contact", label: "Contact" },
   ];
 
